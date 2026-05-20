@@ -18,6 +18,8 @@ function MainModule(listingsID = "#listings") {
       <h2 class="card-title">${listing.name}</h2>
       <div>${listing.price}</div>
       <img src="${listing.host_thumbnail_url}" class="thumbnail" /> 
+      <span${listing.host_name}</span>
+      <p class="description">${listing.host_about}</p>
       <p class="description">${listing.description}</p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
